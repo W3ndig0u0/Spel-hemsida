@@ -1,38 +1,19 @@
-1. vad för spel - blackjack
+1. vad för spel - Tic-tac-toe
 
 a) - UI
 
-- bara en sida med en play button
-- spel banan ska vara ett grönt bord med bits och knappar som gör saker.
+- spel banan ska vara svart med 9 stora rutor (klar)
 
 b) vad för data behöver spelet
 
-- Vems kort är vems
+- Vem är x och vem är o
 
-- Vad för kort är det
+- Hur mycket står det
 
 - Vem vinner
 
-- Hur mycket pengar vann/förlorade man
+- Ai
 
-- Antal pengar
-
-- själva korten (påbörjat)
-
-- Vilka kort inte finns i decken
+- om det är oavgjort
 
 2. funktioner
-
--html-
-
-DrawDeck(); = ge spelaren kort
-
-stay() = ge inte spelaren kort
-
-startBlackjack() = starta spelet
-
--skapa deck-
-
-MakeDeck() = skapar själva decken
-
-DrawDeck() = dra ett kort till spelaren
