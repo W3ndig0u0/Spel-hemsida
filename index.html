@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+
+  <!-- Css -->
+<link rel="stylesheet" href="deck.css">
+
+<!-- js -->
+<link rel="stylesheet" href="deck.js">
+
+</head>
+<body>
+  
+  <div class="game">
+           <h3>Blackjack</h3>
+   
+   <div class="game-body">
+          <div class="game-options">
+           <!-- <input type="button" id="btnStart" class="btn" value="start" onclick="startBlackjack()"> -->
+           <input type="button" class="btn" value="hit me" onclick="DrawDeck()">
+           <input type="button" class="btn" value="stay" onclick="stay()">
+
+           </div>
+   
+               <div class="status" id="status"></div>
+   
+           <div id="deck" class="deck">
+               <div id="deckcount">52</div>
+           </div>
+
+           <div id="money" class="money">
+             <div class="moneycount">2500$</div>
+           </div>
+           
+   
+           <div id="players" class="players">
+           </div>
+   
+           <div class="clear"></div>
+   </div>
+</div>
+
+</body>
+</html>
