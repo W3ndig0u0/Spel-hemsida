@@ -6,6 +6,8 @@
 
 body {
   font-family: "Arial", sans-serif;
+  color: var(--purple);
+  text-transform: uppercase;
 }
 
 .title {
@@ -19,6 +21,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #eee;
+  flex-wrap: wrap;
 }
 
 .play-area {
@@ -36,7 +39,7 @@ body {
   justify-content: center;
   font-size: 3rem;
   font-weight: bold;
-  border: 2px solid black;
+  border: 1.5px solid black;
   transition: background 0.2s ease-in-out;
 }
 
