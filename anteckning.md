@@ -1,31 +1,37 @@
+<!-- !KLAR -->
+
+<!-- ?EJ KLAR -->
+
+<!-- TODO: Arbetar med -->
+
 1. vad för spel - Tic-tac-toe
 
-a) - UI
+a) - UI - Frontend
 
-- Titel
+<!-- ! spel banan ska vara rutaktigt (klar) -->
 
-- spel banan ska vara svart med 9 stora rutor (klar)
+- ha mat
 
-- Vinnares namn står
+- ormen ska exsisteras
 
-- Vems tur ska stå
+- Ormen ska röras sig automatiskt
 
-- blocken ska kunnas tycka
+- ormen äter = större
 
-- Reset button
+- Reset button (osäker om det ska vaar auto eller knapp)
 
-b) vad för data behöver spelet
+b) vad för data behöver spelet - Backend
 
-- Vem är x och vem är o (klar)
+<!-- ! rendering, uppdatera spelet "hela tiden" -->
 
-- Tur gång
+- ny maten kommer fram
 
-- Logic
+- vilket håll ormen rör sig frammåt
 
-- Ai (eller spelare 2)
+- Kontrollerna
 
-- om det är oavgjort
+- Poäng
 
--reset
+- reset
 
-2. funktioner
+- 3 eller 1 liv
