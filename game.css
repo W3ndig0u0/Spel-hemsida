@@ -9,7 +9,7 @@ body {
 }
 
 #canvas {
-  background-color: #eee;
+  background-color: lightgrey;
   width: 100vmin;
   height: 100vmin;
   display: grid;

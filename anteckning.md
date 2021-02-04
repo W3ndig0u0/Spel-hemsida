@@ -10,28 +10,30 @@ a) - UI - Frontend
 
 <!-- ! spel banan ska vara rutaktigt (klar) -->
 
-- ha mat
+<!-- ? - ha mat -->
 
-- ormen ska exsisteras
+<!-- ! - ormen ska exsisteras -->
 
-- Ormen ska röras sig automatiskt
+<!--? - Ormen ska röras sig automatiskt -->
 
-- ormen äter = större
+<!--? - ormen äter = större -->
 
-- Reset button (osäker om det ska vaar auto eller knapp)
+<!--? - Reset button (osäker om det ska vaar auto eller knapp) -->
 
 b) vad för data behöver spelet - Backend
 
 <!-- ! rendering, uppdatera spelet "hela tiden" -->
 
-- ny maten kommer fram
+<!--? - ny maten kommer fram -->
 
-- vilket håll ormen rör sig frammåt
+<!--? - vilket håll ormen rör sig frammåt -->
 
-- Kontrollerna
+<!--? - Kontrollerna -->
 
-- Poäng
+<!--? - Poäng -->
 
-- reset
+<!--? - reset -->
 
-- 3 eller 1 liv
+<!-- ? Extra saker som ger poäng -->
+
+<!--? - 3 eller 1 liv -->
