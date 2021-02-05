@@ -4,36 +4,34 @@
 
 <!-- TODO: Arbetar med -->
 
-1. vad för spel - Tic-tac-toe
+1. vad för spel - Snake
 
 a) - UI - Frontend
 
-<!-- ! spel banan ska vara rutaktigt (klar) -->
+<!-- ! spel banan ska vara rutaktigt, kanske grid? (klar) -->
 
-<!-- ? - ha mat -->
+<!-- ! - ha mat -->
 
 <!-- ! - ormen ska exsisteras -->
 
-<!--? - Ormen ska röras sig automatiskt -->
+<!--! - Ormen ska röras sig åt samma håll tills man ändrar -->
 
-<!--? - ormen äter = större -->
+<!--! - ormen äter = större -->
 
-<!--? - Reset button (osäker om det ska vaar auto eller knapp) -->
+<!--! - Reset button (osäker om det ska vaar auto eller knapp) -->
 
 b) vad för data behöver spelet - Backend
 
 <!-- ! rendering, uppdatera spelet "hela tiden" -->
 
-<!--? - ny maten kommer fram -->
+<!--! - ny maten kommer fram -->
 
-<!--? - vilket håll ormen rör sig frammåt -->
+<!--! - vilket håll ormen rör sig frammåt -->
 
-<!--? - Kontrollerna -->
+<!--! - Kontrollerna -->
 
 <!--? - Poäng -->
 
-<!--? - reset -->
+<!--! - reset -->
 
-<!-- ? Extra saker som ger poäng -->
-
-<!--? - 3 eller 1 liv -->
+<!--? Extra saker som ger poäng -->
