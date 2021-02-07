@@ -5,6 +5,8 @@ import{ update as updateFood, draw as drawFood, } from './food.js'
 import { outsideGrid } from './grid.js'
 
 export let score = 0;
+var gameOverSound = document.getElementById("gameover.wav");
+
 let lastRenderTime = 0;
 let gameOver = false;
 const playground = document.getElementById('playground');
@@ -42,7 +44,10 @@ function checkDeath() {
 function playerDied() {
   if (gameOver) {
     console.log('Game Over')
+    gameOverSound.play();
     if (confirm('Game Over :3')) {
+      
+      // ToDO: reseta allt istället
       window.location = 'https://w3ndig0u0.github.io/Spel-hemsida/'
     }
     return

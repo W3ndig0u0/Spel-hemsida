@@ -14,7 +14,9 @@
 
 </head>
 <body>
-   <audio src="song.mp3" id="sound"></audio>
+   <audio src="background.mp3" id="background"></audio>
+   <audio src="eat.wav" id="sound-effect"></audio>
+   <audio src="gameover.wav" id="gameover-sound"></audio>
 
   <div class="box">
   <h5 class="title"> Jings Snake</h5>
@@ -28,7 +30,7 @@
   <script>
     function startGame() {
       var btn = document.getElementById("playground");
-      var backgroundMusic = document.getElementById("sound");
+      var backgroundMusic = document.getElementById("background");
       btn.classList.add("active");
       backgroundMusic.play();
     }
