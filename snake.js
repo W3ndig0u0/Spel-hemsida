@@ -5,7 +5,7 @@ const snakeBody = [{ x: 11, y: 11 }]
 let newSegments = 0
 
 export function update() {
-  addSegments()
+  addSegments();
 
   const inputDirection = getInputDirection()
   for (let i = snakeBody.length - 2; i >= 0; i--) {
@@ -24,6 +24,10 @@ export function draw(gameBoard) {
     snakeElement.classList.add('snake')
     gameBoard.appendChild(snakeElement)
   })
+}
+
+export function playerDied(){
+  
 }
 
 export function expandSnake(amount) {
@@ -53,6 +57,5 @@ function addSegments() {
   for (let i = 0; i < newSegments; i++) {
     snakeBody.push({ ...snakeBody[snakeBody.length - 1] })
   }
-
   newSegments = 0
 }

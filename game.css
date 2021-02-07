@@ -5,11 +5,11 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: black;
+  background-color: #ddd;
 }
 
-#canvas {
-  background-color: lightgrey;
+#playground {
+  background-color: black;
   width: 100vmin;
   height: 100vmin;
   display: grid;
