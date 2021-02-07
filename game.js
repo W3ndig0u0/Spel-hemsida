@@ -1,15 +1,13 @@
 import { update as updateSnake, draw as drawSnake, snakeSpeed, getSnakeHead, snakeIntersection} from './snake.js' 
 
-import{ update as updateFood, draw as drawFood, } from './food.js'
+import{ update as updateFood, draw as drawFood, score } from './food.js'
 
 import { outsideGrid } from './grid.js'
 
-export let score = 0;
-var gameOverSound = document.getElementById("gameover.wav");
-
 let lastRenderTime = 0;
 let gameOver = false;
-const playground = document.getElementById('playground');
+const playground = document.getElementById("playground");
+var gameOverSound = document.getElementById("gameover-sound");
 
 function main(currentTime){
   playerDied(); 
@@ -33,6 +31,7 @@ function update() {
 
 function draw() {
   playground.innerHTML = '';
+  // score.innerHTML = 'score';
   drawSnake(playground);
   drawFood(playground);
 }
@@ -43,10 +42,9 @@ function checkDeath() {
 
 function playerDied() {
   if (gameOver) {
-    console.log('Game Over')
     gameOverSound.play();
-    if (confirm('Game Over :3')) {
-      
+    console.log("score");
+    if (confirm('Game Over :3 (The GameOver sound has a bug, i know :(')) {
       // ToDO: reseta allt istället
       window.location = 'https://w3ndig0u0.github.io/Spel-hemsida/'
     }

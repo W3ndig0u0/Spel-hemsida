@@ -30,8 +30,6 @@ b) vad för data behöver spelet - Backend
 
 <!--! - Kontrollerna -->
 
-<!--? - Poäng -->
-
 <!--! - reset -->
 
-<!--? Extra saker som ger poäng -->
+<!--? Extra saker som ger poäng och music-->

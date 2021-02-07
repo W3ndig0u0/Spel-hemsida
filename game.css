@@ -47,6 +47,14 @@ body {
   grid-template-columns: repeat(21, 1fr);
 }
 
+.score {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 48px;
+  margin: 1rem;
+}
+
 .snake {
   background-color: yellowgreen;
   border: 1px solid black;

@@ -14,9 +14,8 @@
 
 </head>
 <body>
-   <audio src="background.mp3" id="background"></audio>
    <audio src="eat.wav" id="sound-effect"></audio>
-   <audio src="gameover.wav" id="gameover-sound"></audio>
+   <audio src="gameOver.mp3" id="gameover-sound"></audio>
 
   <div class="box">
   <h5 class="title"> Jings Snake</h5>
@@ -24,18 +23,17 @@
   <button class="start-btn" onclick="startGame()" >Start</button>
   </div>
   
+  <div class="score">Score: 0</div>
   <div id="playground"> 
+  </div>
 
     <!-- ToDO: Göra ett bättra sätt, kanske en modal-->
-  <script>
+    <script>
     function startGame() {
       var btn = document.getElementById("playground");
-      var backgroundMusic = document.getElementById("background");
       btn.classList.add("active");
-      backgroundMusic.play();
     }
     </script>
 
-</div>
 </body>
 </html>
