@@ -14,6 +14,7 @@
 
 </head>
 <body>
+   <audio src="song.mp3" id="sound"></audio>
 
   <div class="box">
   <h5 class="title"> Jings Snake</h5>
@@ -27,7 +28,9 @@
   <script>
     function startGame() {
       var btn = document.getElementById("playground");
+      var backgroundMusic = document.getElementById("sound");
       btn.classList.add("active");
+      backgroundMusic.play();
     }
     </script>
 
