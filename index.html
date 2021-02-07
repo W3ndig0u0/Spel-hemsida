@@ -10,11 +10,26 @@
 <link rel="stylesheet" href="game.css">
 
 <!-- js -->
-<script src="game.js" defer type="module"></script>
+<script defer src="game.js" type="module"></script>
 
 </head>
 <body>
-<div id="playground"> 
+
+  <div class="box">
+  <h5 class="title"> Jings Snake</h5>
+  <div class="text">Use the arrow keys to move, press Start when your ready!</div>
+  <button class="start-btn" onclick="startGame()" >Start</button>
+  </div>
+  
+  <div id="playground"> 
+
+    <!-- ToDO: Göra ett bättra sätt, kanske en modal-->
+  <script>
+    function startGame() {
+      var btn = document.getElementById("playground");
+      btn.classList.add("active");
+    }
+    </script>
 
 </div>
 </body>
