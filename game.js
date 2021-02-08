@@ -31,7 +31,7 @@ function update() {
 
 function draw() {
   playground.innerHTML = '';
-  // score.innerHTML = 'score';
+  // document.getElementById('score').innerHTML = "score";
   drawSnake(playground);
   drawFood(playground);
 }
