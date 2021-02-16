@@ -46,7 +46,8 @@ function playerDied() {
     console.log("score");
     if (confirm('Game Over :3 (The GameOver sound has a bug, i know :(')) {
       // ToDO: reseta allt istället
-      window.location = 'https://w3ndig0u0.github.io/Spel-hemsida/'
+      // window.location = 'https://w3ndig0u0.github.io/Spel-hemsida/'
+      window.location.href = ''
     }
     return
   }
