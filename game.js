@@ -44,9 +44,8 @@ function playerDied() {
   if (gameOver) {
     gameOverSound.play();
     console.log("score");
-    if (confirm('Game Over :3 (The GameOver sound has a bug, i know :(')) {
+    if (confirm('Game Over :3 \nThe GameOver is buggy. \nPress Ok then Cancel in order to reset')) {
       // ToDO: reseta allt istället
-      // window.location = 'https://w3ndig0u0.github.io/Spel-hemsida/'
       window.location.href = ''
     }
     return
