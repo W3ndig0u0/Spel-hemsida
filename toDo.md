@@ -30,6 +30,8 @@ b) vad för data behöver spelet - Backend
 
 ! - Kontrollerna
 
-! - reset
+TODO: - reset (Göra en bättre reset!)
 
-? Extra saker som ger poäng och music
+! - Musik
+
+? Extra saker som ger poäng och poäng
