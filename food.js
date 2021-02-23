@@ -3,7 +3,7 @@ import { randomGridPosition } from './grid.js'
 
 let food = getRandomFoodPosition()
 export let score = 0;
-const expansionRate = 5
+const expansionRate = 1;
 var soundEffect = document.getElementById("sound-effect");
 
 export function update() {
